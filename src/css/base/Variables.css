@@ -1,0 +1,31 @@
+/* Colors */
+$colorWhite: #fff;
+$colorBlack: #000;
+
+/* Color uses */
+$colorPrimary: $colorWhite;
+$colorSecondary: $colorBlack;
+
+/* Sizes */
+$baseSize: 1rem;
+
+/* Z-Index */
+$ztop: 999;
+$zmid: 99;
+$zmin: 3;
+
+@custom-media --viewport-small (min-width: 30rem); /* 480 */
+
+@custom-media --viewport-landscapeMin (min-width: 35.5rem); /* 568 */
+
+@custom-media --viewport-landscapeMax (min-width: 41.25rem); /* 660 */
+
+@custom-media --viewport-medium (min-width: 48rem);  /* 768 */
+
+@custom-media --viewport-large (min-width: 64rem);  /* 1024 */
+
+@custom-media --viewport-mega (min-width: 75rem);  /* 1200 */
+
+@custom-media --viewport-huge (min-width: 80rem);  /* 1280 */
+
+@custom-media --viewport-monitor (min-width: 85.375rem);  /* 1366 */
